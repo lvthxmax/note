@@ -96,7 +96,7 @@ a := A {a: 1, b: 2}
 b := &A {a: 1, b: 2}
 &a.b相当于&(a.b)
 &a的地址与&a.a相同，但两者类型不一样
-*b.b相当于(*b).b 
+*b.b不等于(*b).b 
 
 函数  // 函数类型的零值是nil，go语言中函数没有重载只有重写，go语言的所有函数都是值传递，没有引用传递
 声明  // func name(parameter-list) (result-list) {}
